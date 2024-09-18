@@ -9,7 +9,7 @@ type WeatherDetailProps = {
 export default function WeatherDetail({ weather, imagen }: WeatherDetailProps) {
   return (
     <div className={styles.container} style={{
-      backgroundImage: `linear-gradient(to right, rgba(110, 110, 110, 0.7), rgba(110, 110, 110, 0.7)), url(${imagen})`,
+      backgroundImage: `linear-gradient(to right, rgba(110, 110, 110, 0.3), rgba(110, 110, 110, 0.3)), url(${imagen})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       color: '#fff',
